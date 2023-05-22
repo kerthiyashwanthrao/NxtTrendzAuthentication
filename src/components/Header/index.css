@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 50px;
+  width: 150px;
+}
+.headerItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.HeaderItem {
+  color: #475569;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.logOutBtn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 5px;
+  width: 50px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-size: 12px;
+  margin-left: 5px;
+}

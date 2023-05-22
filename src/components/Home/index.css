@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.homeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+  padding: 20px;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+}
+.heading {
+  color: #1e293b;
+  font-size: 40px;
+}
+.para {
+  font-size: 20px;
+  color: #64748b;
+}
+.btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 400px;
+  width: 400px;
+}
